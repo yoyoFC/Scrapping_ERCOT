@@ -18,11 +18,11 @@ st.write("insert rows")
 
 ###############################################################
 def execute_sql(vSQL,vType):
-    host_name="dataviz.cgq2ewzuuqs1.us-east-2.rds.amazonaws.com"
-    db_user="postgres"
-    db_password="ElPeruano_2021"
-    db_name="postgres"
-    db_port = 5432
+    host_name=""
+    db_user=""
+    db_password=""
+    db_name=""
+    db_port = 
     connection = db_connect.connect(host=host_name,user=db_user,password=db_password,database=db_name, port=db_port) 
     cursor = connection.cursor()
     cursor.execute(vSQL)
